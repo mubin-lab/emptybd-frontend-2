@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "Name": {
+      "English": "Apple Inc.",
+      "bangla": "অ্যাপল ইনকর্পোরেটেড"
+    },
+    "Location": {
+      "English": "Cupertino, California",
+      "bangla": "কুপারটিনো, ক্যালিফোর্নিয়া"
+    },
+    "Description": {
+      "English": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services.",
+      "bangla": "অ্যাপল ইনকর্পোরেটেড একটি আমেরিকান বহুজাতিক প্রযুক্তি কোম্পানি, যার সদর দপ্তর ক্যালিফোর্নিয়ার কুপারটিনোতে অবস্থিত, যা কনজিউমার ইলেকট্রনিক্স, কম্পিউটার সফটওয়্যার এবং অনলাইন পরিষেবা ডিজাইন, বিকাশ এবং বিক্রি করে।"
+    },
+    "image": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1280px-Apple_logo_black.svg.png"
+    ],
+    "Comments": [
+      {
+        "name": "TechGuru",
+        "text": "The design of their products is unmatched.",
+        "Image": ""
+      }
+    ],
+    "Like": 5000,
+    "Share": 1200,
+    "views": 22000,
+    "author": "Greatest",
+    "createdAt": "2026-07-17T09:00:00Z"
+  },
+  {
+    "id": "2",
+    "Name": {
+      "English": "SpaceX",
+      "bangla": "স্পেসএক্স"
+    },
+    "Location": {
+      "English": "Hawthorne, California",
+      "bangla": "হাউথর্ন, ক্যালিফোর্নিয়া"
+    },
+    "Description": {
+      "English": "Space Exploration Technologies Corp. is an American aerospace manufacturer, space transportation services and communications corporation headquartered in Hawthorne, California.",
+      "bangla": "স্পেস এক্সপ্লোরেশন টেকনোলজিস কর্পোরেশন একটি আমেরিকান মহাকাশ প্রস্তুতকারক, মহাকাশ পরিবহন পরিষেবা এবং যোগাযোগ কর্পোরেশন যার সদর দপ্তর ক্যালিফোর্নিয়ার হাউথর্নে অবস্থিত।"
+    },
+    "image": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/USA_-_Texas_-_Boca_Chica_-_Starbase_%2851285307187%29.jpg/1280px-USA_-_Texas_-_Boca_Chica_-_Starbase_%2851285307187%29.jpg"
+    ],
+    "Comments": [
+      {
+        "name": "MarsExplorer",
+        "text": "To infinity and beyond!",
+        "Image": ""
+      }
+    ],
+    "Like": 6500,
+    "Share": 1800,
+    "views": 30000,
+    "author": "Greatest",
+    "createdAt": "2026-07-18T16:30:00Z"
+  },
+  {
+    "id": "3",
+    "Name": {
+      "English": "Google",
+      "bangla": "গুগল"
+    },
+    "Location": {
+      "English": "Mountain View, California",
+      "bangla": "মাউন্টেন ভিউ, ক্যালিফোর্নিয়া"
+    },
+    "Description": {
+      "English": "Google LLC is an American multinational corporation and technology company focusing on online advertising, search engine technology, cloud computing, computer software, quantum computing, e-commerce, consumer electronics, and artificial intelligence.",
+      "bangla": "গুগল এলএলসি একটি আমেরিকান বহুজাতিক কর্পোরেশন এবং প্রযুক্তি কোম্পানি যা অনলাইন বিজ্ঞাপন, সার্চ ইঞ্জিন প্রযুক্তি, ক্লাউড কম্পিউটিং, কম্পিউটার সফ্টওয়্যার, কোয়ান্টাম কম্পিউটিং, ই-কমার্স, ভোক্তা ইলেকট্রনিক্স এবং কৃত্রিম বুদ্ধিমত্তার উপর দৃষ্টি নিবদ্ধ করে।"
+    },
+    "image": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Googleplex_HQ_%28cropped%29.jpg/1280px-Googleplex_HQ_%28cropped%29.jpg"
+    ],
+    "Comments": [],
+    "Like": 7200,
+    "Share": 2100,
+    "views": 38000,
+    "author": "Greatest",
+    "createdAt": "2026-07-21T11:00:00Z"
+  }
+]

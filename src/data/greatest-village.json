@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1",
+    "Name": {
+      "English": "Giethoorn",
+      "bangla": "গিয়েথুর্ন"
+    },
+    "Location": {
+      "English": "Overijssel, Netherlands",
+      "bangla": "ওভারাইসেল, নেদারল্যান্ডস"
+    },
+    "Description": {
+      "English": "Giethoorn is a mostly car-free village in the northeastern Dutch province of Overijssel. It's known for its boat-filled waterways, footpaths, bicycle trails and centuries-old thatched-roof houses.",
+      "bangla": "গিয়েথুর্ন উত্তর-পূর্ব ডাচ প্রদেশ ওভারাইসেলের একটি গাড়ি-মুক্ত গ্রাম। এটি তার নৌকায় ভরা জলপথ, ফুটপাথ, সাইকেলের পথ এবং শতাব্দী প্রাচীন খড়-ছাওয়া বাড়িগুলির জন্য পরিচিত।"
+    },
+    "image": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Giethoorn_Netherlands_flckr05.jpg/1280px-Giethoorn_Netherlands_flckr05.jpg"
+    ],
+    "Comments": [
+      {
+        "name": "Traveler101",
+        "text": "I want to visit there so badly!",
+        "Image": ""
+      }
+    ],
+    "Like": 2800,
+    "Share": 920,
+    "views": 8500,
+    "author": "Greatest",
+    "createdAt": "2026-07-18T10:00:00Z"
+  },
+  {
+    "id": "2",
+    "Name": {
+      "English": "Shirakawa-go",
+      "bangla": "শিরাকাওয়া-গো"
+    },
+    "Location": {
+      "English": "Gifu, Japan",
+      "bangla": "গিফু, জাপান"
+    },
+    "Description": {
+      "English": "Shirakawa-go is a Japanese mountain settlement in what was once Hida Province. It is best known for its traditional gassho-zukuri farmhouses, some of which are more than 250 years old.",
+      "bangla": "শিরাকাওয়া-গো হলো জাপানের একটি পার্বত্য বসতি, যা একসময় হিদা প্রদেশ ছিল। এটি তার ঐতিহ্যবাহী গাশো-জুকুরি খামারবাড়িগুলির জন্য পরিচিত, যার মধ্যে কিছু ২৫০ বছরেরও বেশি পুরানো।"
+    },
+    "image": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Shirakawa-go_Winter_illuminations.jpg/1024px-Shirakawa-go_Winter_illuminations.jpg"
+    ],
+    "Comments": [],
+    "Like": 4100,
+    "Share": 1100,
+    "views": 15000,
+    "author": "Greatest",
+    "createdAt": "2026-07-19T14:20:00Z"
+  },
+  {
+    "id": "3",
+    "Name": {
+      "English": "Hallstatt",
+      "bangla": "হ্যালস্ট্যাট"
+    },
+    "Location": {
+      "English": "Salzkammergut, Austria",
+      "bangla": "সালজক্যামারগুট, অস্ট্রিয়া"
+    },
+    "Description": {
+      "English": "Hallstatt is a village on Lake Hallstatt's western shore in Austria's mountainous Salzkammergut region. Its 16th-century Alpine houses and alleyways are home to cafes and shops.",
+      "bangla": "হ্যালস্ট্যাট হলো অস্ট্রিয়ার পার্বত্য সালজক্যামারগুট অঞ্চলের হ্যালস্ট্যাট হ্রদের পশ্চিম তীরের একটি গ্রাম। এর ১৬ শতকের আলপাইন বাড়ি এবং গলিপথগুলি ক্যাফে এবং দোকানগুলির আবাসস্থল।"
+    },
+    "image": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Hallstatt_-_Zentrum_.JPG/1280px-Hallstatt_-_Zentrum_.JPG"
+    ],
+    "Comments": [],
+    "Like": 5600,
+    "Share": 1400,
+    "views": 21000,
+    "author": "Greatest",
+    "createdAt": "2026-07-22T09:30:00Z"
+  }
+]
