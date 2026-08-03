@@ -45,7 +45,7 @@ export default function NewsForm() {
   const { user, fetchUser } = useAuthStore();
   const [uploading, setUploading] = useState(false);
   const router = useRouter();
-  const [showWarning, setShowWarning] = useState(true);
+  const [showWarning, setShowWarning] = useState(false);
 
   // Dynamic char limit from admin settings (default 140)
   const [charLimit, setCharLimit] = useState(140);
@@ -185,7 +185,7 @@ export default function NewsForm() {
   const descLength = formData.news_description.length;
   const hasImage = !!formData.news_img;
   const isDescValid = descLength >= charLimit;
-  const canSubmit = isDescValid && hasImage && !loading && !uploading;
+  const canSubmit = isDescValid && !loading && !uploading;
 
   // Counter colour
   const counterColor =
@@ -268,7 +268,7 @@ export default function NewsForm() {
       <div>
         <label className="block text-sm font-medium mb-1">
           নিউজের ছবি আপলোড করুন{" "}
-          <span className="text-red-400 text-xs">(আবশ্যক)</span>
+          <span className="text-gray-400 text-xs">(ঐচ্ছিক)</span>
         </label>
         <input
           type="file"
@@ -280,9 +280,6 @@ export default function NewsForm() {
         />
         {uploading && (
           <p className="text-xs text-yellow-400 mt-1">ছবি আপলোড হচ্ছে…</p>
-        )}
-        {!hasImage && !uploading && (
-          <p className="text-xs text-red-400 mt-1">নিউজ পোস্ট করতে অবশ্যই একটি ছবি দিতে হবে।</p>
         )}
         {previewImg && (
           <BackendImage
@@ -308,11 +305,9 @@ export default function NewsForm() {
       {/* Summary hint below button */}
       {!canSubmit && !loading && !uploading && (
         <p className="text-xs text-center text-gray-500 -mt-1">
-          {!isDescValid && !hasImage
-            ? `আরও ${charLimit - descLength}টি অক্ষর লিখুন এবং একটি ছবি যোগ করুন।`
-            : !isDescValid
+          {!isDescValid
             ? `পোস্ট করতে আরও ${charLimit - descLength}টি অক্ষর লিখতে হবে।`
-            : "পোস্ট করতে একটি ছবি যোগ করুন।"}
+            : ""}
         </p>
       )}
     </form>
