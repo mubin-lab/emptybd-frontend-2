@@ -180,7 +180,7 @@ export default function AllNews({ limitMode = false }: { limitMode?: boolean }) 
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [loading, hasMore, limitMode]);
+  }, [loading, hasMore, limitMode, isFetchingNews]);
 
   const handleReaction = async (newsId: string) => {
     if (!user?.email) return;
