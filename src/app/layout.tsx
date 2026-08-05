@@ -178,12 +178,12 @@ export default function RootLayout({
  
 
         {/* multi */}
-        <Script
+        {/* <Script
           src="https://quge5.com/88/tag.min.js"
           strategy="afterInteractive"
           data-zone="262405"
           data-cfasync="false"
-        />
+        /> */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
