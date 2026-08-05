@@ -67,6 +67,7 @@ export default function Navbar() {
   }, [user?.email]);
 
   // Fetch initial unread message count
+  /*
   useEffect(() => {
     if (!user?.email) return;
     const fetchUnreadCount = async () => {
@@ -85,6 +86,7 @@ export default function Navbar() {
     };
     fetchUnreadCount();
   }, [user?.email]);
+  */
 
   // Connect socket and listen for outbid events & new messages
   useEffect(() => {
@@ -113,6 +115,7 @@ export default function Navbar() {
       });
     };
 
+    /*
     const handleNewMessageNavbar = (msg: any) => {
       if (msg.recipientEmail === user.email) {
         setUnreadMessageCount((prev) => prev + 1);
@@ -130,7 +133,9 @@ export default function Navbar() {
         }
       }
     };
+    */
 
+    /*
     const handleMessagesRead = () => {
       // Re-fetch accurate count from backend when messages are read in any tab
       const token = localStorage.getItem("auth_token");
@@ -142,15 +147,16 @@ export default function Navbar() {
       .then(data => setUnreadMessageCount(data.unreadCount || 0))
       .catch(err => console.error("Failed to refetch unread count:", err));
     };
+    */
 
     socket.on("outbid_alert", handleOutbidAlert);
-    socket.on("new_message", handleNewMessageNavbar);
-    socket.on("messages_read", handleMessagesRead);
+    // socket.on("new_message", handleNewMessageNavbar);
+    // socket.on("messages_read", handleMessagesRead);
 
     return () => {
       socket.off("outbid_alert", handleOutbidAlert);
-      socket.off("new_message", handleNewMessageNavbar);
-      socket.off("messages_read", handleMessagesRead);
+      // socket.off("new_message", handleNewMessageNavbar);
+      // socket.off("messages_read", handleMessagesRead);
     };
   }, [user?.email]);
 
@@ -257,7 +263,7 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center ">
-          {user && (
+          {/* {user && (
             <div className="relative cursor-pointer">
               <NavIcon
                 id="tour-messenger"
@@ -279,7 +285,7 @@ export default function Navbar() {
                 />
               </NavIcon>
             </div>
-          )}
+          )} */}
 
           {loading ? (
             ""

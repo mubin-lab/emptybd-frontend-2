@@ -4,82 +4,45 @@ import { BiShield, BiLock, BiUser, BiCookie, BiData, BiShare, BiRevision } from 
 
 const sections = [
   {
-    icon: BiShield,
-    title: "Information We Collect",
-    content: `We collect information that you provide directly to us when using EmptyBD, including:
-
-• Account Information: Name, email address, phone number, NID, and address when you register
-• Transaction Data: Payment method details, transaction IDs, deposit/withdrawal history, and wallet balance
-• Content & Activity: Posts you create, news you share, comments, likes, and interactions
-• Media: Photos or short videos you upload to your profile or feed
-• Communications: Messages with other users, customer support inquiries, and notifications`,
-  },
-  {
-    icon: BiLock,
-    title: "How We Use Your Information",
-    content: `We use the information we collect to:
-
-• Provide and maintain our social networking, blogging, and content sharing services
-• Personalize your content feed and user experience
-• Facilitate communication between users and community members
-• Send you transaction confirmations, updates, and promotional messages
-• Verify your identity and prevent fraud
-• Comply with legal obligations and resolve disputes`,
-  },
-  {
-    icon: BiUser,
-    title: "Account Security",
-    content: `• Your account is protected by authentication tokens stored securely
-• You are responsible for maintaining the confidentiality of your login credentials
-• We implement industry-standard security measures to protect your data
-• Enable two-factor authentication when available for enhanced security
-• Report any unauthorized account activity immediately to our support team`,
-  },
-  {
-    icon: BiCookie,
-    title: "Cookies and Tracking",
-    content: `We use cookies and similar technologies to:
-
-• Keep you logged in and maintain your session
-• Remember your preferences and settings
-• Analyze how you use our platform to improve services
-• Deliver personalized content and advertisements
-
-You can manage cookie preferences through your browser settings.`,
-  },
-  {
     icon: BiData,
-    title: "Data Storage and Retention",
-    content: `• Your data is stored on secure servers located in Bangladesh
-• We retain your information as long as your account is active
-• Transaction records are kept for 5 years for legal and tax compliance
-• You can request account deletion, which will remove personal data within 30 days
-• Some anonymized data may be retained for analytics purposes`,
+    title: "১. তথ্য সংগ্রহ",
+    content: `EmptyBD.com ব্যবহার করার সময় আমরা আপনার নাম, ইমেইল, মোবাইল নম্বর, পেমেন্ট সংক্রান্ত তথ্য, IP Address, ব্রাউজার তথ্য এবং অন্যান্য প্রয়োজনীয় তথ্য সংগ্রহ করতে পারি।`,
   },
   {
     icon: BiShare,
-    title: "Information Sharing",
-    content: `We may share your information with:
+    title: "২. তথ্যের ব্যবহার",
+    content: `সংগৃহীত তথ্য নিম্নলিখিত উদ্দেশ্যে ব্যবহার করা হবে:
 
-• Other users as necessary to display your public profile, posts, and comments
-• Payment processors to facilitate deposits and withdrawals
-• Law enforcement when required by law or to protect our rights
-• Service providers who assist in operating our platform
-
-We do not sell your personal information to third parties for marketing purposes.`,
+• ব্যবহারকারীর অ্যাকাউন্ট পরিচালনা।
+• নিরাপত্তা নিশ্চিত করা।
+• পেমেন্ট ও উইথড্র প্রক্রিয়া সম্পন্ন করা।
+• প্রতারণা ও অবৈধ কার্যক্রম প্রতিরোধ করা।
+• নতুন ফিচার ও সেবা উন্নয়ন করা।`,
+  },
+  {
+    icon: BiShield,
+    title: "৩. তথ্যের নিরাপত্তা",
+    content: `ব্যবহারকারীর ব্যক্তিগত তথ্য নিরাপদ রাখতে EmptyBD.com সর্বোচ্চ চেষ্টা করবে। তবে ইন্টারনেটের মাধ্যমে তথ্য আদান-প্রদানে শতভাগ নিরাপত্তার নিশ্চয়তা দেওয়া সম্ভব নয়।`,
+  },
+  {
+    icon: BiUser,
+    title: "৪. তৃতীয় পক্ষের সেবা",
+    content: `EmptyBD.com প্রয়োজনে তৃতীয় পক্ষের পেমেন্ট গেটওয়ে, বিজ্ঞাপন বা অন্যান্য সেবা ব্যবহার করতে পারে। এসব সেবার নিজস্ব Privacy Policy প্রযোজ্য হবে।`,
+  },
+  {
+    icon: BiCookie,
+    title: "৫. Cookies",
+    content: `ব্যবহারকারীর অভিজ্ঞতা উন্নত করতে Cookies ব্যবহার করা হতে পারে।`,
   },
   {
     icon: BiRevision,
-    title: "Your Rights",
-    content: `You have the right to:
-
-• Access and review the personal information we hold about you
-• Update or correct inaccurate information through your profile
-• Request deletion of your account and associated data
-• Opt-out of promotional communications
-• Export your transaction history
-
-Contact us at mubinulislam14@gmail.com to exercise these rights.`,
+    title: "৬. তথ্য হালনাগাদ",
+    content: `ব্যবহারকারী তার অ্যাকাউন্টের তথ্য সঠিক ও হালনাগাদ রাখার জন্য দায়ী থাকবেন।`,
+  },
+  {
+    icon: BiLock,
+    title: "৭. আর্থিক লেনদেন ও দায়বদ্ধতা",
+    content: `EmptyBD.com প্রমোশন বা প্রমোট করা ছাড়া কারও কাছ থেকে কোনো প্রকার টাকা গ্রহণ করে না। কোনো ব্যবহারকারী যদি কোনো কারণে অন্য কারও সাথে ব্যক্তিগতভাবে আর্থিক লেনদেন করেন, সে ক্ষেত্রে EmptyBD.com-এর কোনো দায়বদ্ধতা থাকবে না।`,
   },
 ];
 
@@ -93,19 +56,10 @@ export default function PrivacyPolicyPage() {
             <BiShield className="text-3xl md:text-4xl text-primary" />
           </div>
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-3">
-            Privacy Policy
+            Privacy Policy (গোপনীয়তা নীতি)
           </h1>
           <p className="text-gray-400 text-sm md:text-base">
             Last updated: April 21, 2026
-          </p>
-        </div>
-
-        {/* Introduction */}
-        <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-4 md:p-6 mb-6">
-          <p className="text-gray-300 leading-relaxed">
-            EmptyBD (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) is committed to protecting your privacy. 
-            This Privacy Policy explains how we collect, use, store, and protect your personal information 
-            when you use our social media platform, read our blogs, and interact with our community.
           </p>
         </div>
 
@@ -134,7 +88,7 @@ export default function PrivacyPolicyPage() {
         </div>
 
         {/* Contact Section */}
-        <div className="mt-8 bg-gradient-to-r from-primary/20 to-secondary/20 border border-primary/30 rounded-lg p-4 md:p-6">
+        {/* <div className="mt-8 bg-gradient-to-r from-primary/20 to-secondary/20 border border-primary/30 rounded-lg p-4 md:p-6">
           <h2 className="text-lg md:text-xl font-semibold text-white mb-2">
             Contact Us
           </h2>
@@ -148,7 +102,7 @@ export default function PrivacyPolicyPage() {
               mubinulislam14@gmail.com
             </a>
           </p>
-        </div>
+        </div> */}
 
         {/* Footer Note */}
         <p className="text-center text-gray-500 text-xs md:text-sm mt-8">

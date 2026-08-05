@@ -96,14 +96,14 @@ export default function MenuPage() {
           textColor: "text-rose-400",
           glow: "group-hover:border-t-rose-400/50 group-hover:border-l-rose-400/50 group-hover:border-b-rose-500/10 group-hover:border-r-rose-500/10 shadow-[inset_2px_2px_4px_rgba(255,255,255,0.15),_0_0_15px_rgba(244,63,94,0.45)]",
         },
-        {
-          label: "Deposit Funds",
-          description: "Add funds to your wallet account",
-          href: "/transaction/diposit",
-          icon: ArrowDownLeft,
-          textColor: "text-green-400",
-          glow: "group-hover:border-t-green-400/50 group-hover:border-l-green-400/50 group-hover:border-b-green-500/10 group-hover:border-r-green-500/10 shadow-[inset_2px_2px_4px_rgba(255,255,255,0.15),_0_0_15px_rgba(34,197,94,0.45)]",
-        },
+        // {
+        //   label: "Deposit Funds",
+        //   description: "Add funds to your wallet account",
+        //   href: "/transaction/diposit",
+        //   icon: ArrowDownLeft,
+        //   textColor: "text-green-400",
+        //   glow: "group-hover:border-t-green-400/50 group-hover:border-l-green-400/50 group-hover:border-b-green-500/10 group-hover:border-r-green-500/10 shadow-[inset_2px_2px_4px_rgba(255,255,255,0.15),_0_0_15px_rgba(34,197,94,0.45)]",
+        // },
       ],
     },
     {

@@ -2,38 +2,64 @@ import React from "react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us",
-  description: "Learn more about EmptyBD, our mission, and our team.",
+  title: "আমাদের সম্পর্কে (About Us)",
+  description: "EmptyBD.com সম্পর্কে বিস্তারিত জানুন।",
 };
 
 export default function AboutUsPage() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8 font-parkinsans min-h-screen">
-      <h1 className="text-3xl font-bold mb-6 font-orbitron">About Us</h1>
+      <h1 className="text-3xl font-bold mb-6 font-orbitron text-white">আমাদের সম্পর্কে</h1>
       
-      <div className="space-y-6 text-gray-300">
+      <div className="space-y-8 text-gray-300 leading-relaxed">
         <section>
-          <h2 className="text-2xl font-semibold mb-3 text-white">Who We Are</h2>
+          <p className="mb-4">
+            EmptyBD.com বাংলাদেশের একটি আধুনিক ডিজিটাল প্ল্যাটফর্ম, যেখানে ব্যবহারকারীরা বিভিন্ন অনলাইন কার্যক্রম, রেফারেল প্রোগ্রাম, অফার এবং অন্যান্য বৈধ উপায়ে আয়ের সুযোগ পেতে পারেন। আমাদের লক্ষ্য হলো একটি নিরাপদ, স্বচ্ছ এবং নির্ভরযোগ্য পরিবেশ তৈরি করা, যেখানে প্রত্যেক ব্যবহারকারী সহজে এবং আত্মবিশ্বাসের সাথে আমাদের সেবা ব্যবহার করতে পারেন।
+          </p>
+          <p className="mb-4">
+            আমরা বিশ্বাস করি, প্রযুক্তির সঠিক ব্যবহার মানুষের জন্য নতুন সম্ভাবনার দ্বার উন্মুক্ত করতে পারে। সেই লক্ষ্যকে সামনে রেখে EmptyBD.com সর্বদা নতুন ফিচার, উন্নত সেবা এবং ব্যবহারবান্ধব অভিজ্ঞতা নিশ্চিত করার জন্য কাজ করে যাচ্ছে।
+          </p>
+          <p className="mb-4">
+            আমাদের প্ল্যাটফর্মে নিরাপত্তা, স্বচ্ছতা এবং ব্যবহারকারীর সন্তুষ্টিকে সর্বোচ্চ গুরুত্ব দেওয়া হয়। প্রতারণামূলক কার্যক্রম প্রতিরোধে আমরা কঠোর নীতিমালা অনুসরণ করি এবং সকল ব্যবহারকারীর জন্য সমান সুযোগ নিশ্চিত করার চেষ্টা করি।
+          </p>
           <p>
-            Welcome to EmptyBD, Bangladesh's premier social media and blogging platform. 
-            We are dedicated to providing a secure, transparent, and vibrant space for creators and readers to connect.
+            EmptyBD.com-এর মূল উদ্দেশ্য হলো একটি বিশ্বস্ত অনলাইন কমিউনিটি গড়ে তোলা, যেখানে প্রত্যেক ব্যবহারকারী নিরাপদে অংশগ্রহণ করতে পারবেন এবং তাদের প্রাপ্য সুবিধা উপভোগ করতে পারবেন।
           </p>
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold mb-3 text-white">Our Mission</h2>
+          <h2 className="text-2xl font-semibold mb-3 text-white">আমাদের লক্ষ্য (Our Mission)</h2>
+          <ul className="list-disc list-inside space-y-2">
+            <li>ব্যবহারকারীদের জন্য একটি নিরাপদ ও নির্ভরযোগ্য ডিজিটাল প্ল্যাটফর্ম তৈরি করা।</li>
+            <li>স্বচ্ছ ও ন্যায্য আয়ের সুযোগ নিশ্চিত করা।</li>
+            <li>প্রতারণামুক্ত ও মানসম্মত অনলাইন পরিবেশ গড়ে তোলা।</li>
+            <li>প্রযুক্তির মাধ্যমে মানুষের জন্য নতুন সুযোগ সৃষ্টি করা।</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-semibold mb-3 text-white">আমাদের ভিশন (Our Vision)</h2>
           <p>
-            Our mission is to revolutionize digital content sharing and community building in Bangladesh by fostering trust, 
-            ensuring quality interactions, and delivering an exceptional user experience. We aim to empower individuals to share their stories, 
-            read news, and engage in meaningful discussions.
+            বাংলাদেশের অন্যতম বিশ্বস্ত এবং জনপ্রিয় ডিজিটাল রিওয়ার্ড ও কমিউনিটি প্ল্যাটফর্ম হিসেবে প্রতিষ্ঠিত হওয়া, যেখানে নিরাপত্তা, স্বচ্ছতা এবং ব্যবহারকারীর আস্থা হবে আমাদের সবচেয়ে বড় শক্তি।
           </p>
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold mb-3 text-white">Our Team</h2>
+          <h2 className="text-2xl font-semibold mb-3 text-white">কেন EmptyBD?</h2>
+          <ul className="space-y-2">
+            <li>✔️ নিরাপদ ও সহজ ব্যবহার</li>
+            <li>✔️ স্বচ্ছ নীতিমালা</li>
+            <li>✔️ দ্রুত সহায়তা ও সাপোর্ট</li>
+            <li>✔️ নিয়মিত নতুন ফিচার ও আপডেট</li>
+            <li>✔️ ব্যবহারকারীর তথ্যের সর্বোচ্চ নিরাপত্তা</li>
+            <li>✔️ ন্যায্য ও নিরপেক্ষ পরিচালনা</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-semibold mb-3 text-white">আমাদের প্রতিশ্রুতি</h2>
           <p>
-            EmptyBD is powered by a team of passionate professionals with expertise in social networking, technology, and community management. 
-            We work tirelessly to ensure that our platform remains safe, innovative, and user-friendly for everyone.
+            EmptyBD.com সর্বদা ব্যবহারকারীদের সর্বোত্তম অভিজ্ঞতা নিশ্চিত করতে প্রতিশ্রুতিবদ্ধ। আমরা সেবার মান উন্নয়ন, নিরাপত্তা বৃদ্ধি এবং স্বচ্ছ নীতিমালার মাধ্যমে একটি দীর্ঘমেয়াদী ও বিশ্বস্ত প্ল্যাটফর্ম গড়ে তুলতে নিরলসভাবে কাজ করে যাচ্ছি।
           </p>
         </section>
       </div>

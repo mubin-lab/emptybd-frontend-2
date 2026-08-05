@@ -59,7 +59,7 @@ export default function PurchasePage({ params }: { params: Promise<{ id: string 
     if (!hasEnoughFunds) {
       toast.error("Insufficient balance. Please make a deposit to continue.");
       setTimeout(() => {
-        router.push("/transaction/diposit");
+        router.push("/");
       }, 1500);
       return;
     }
@@ -216,7 +216,7 @@ export default function PurchasePage({ params }: { params: Promise<{ id: string 
                 <div>
                   <p className="text-red-400 font-bold">Insufficient Funds</p>
                   <p className="text-red-400/80 text-sm">You need ৳{asset.currentPrice - currentBalance} more to complete this purchase.</p>
-                  <Link prefetch={false} href="/transaction/diposit" className="text-white underline text-sm mt-2 inline-block hover:text-primary">Deposit Funds</Link>
+                  {/* <Link prefetch={false} href="/transaction/diposit" className="text-white underline text-sm mt-2 inline-block hover:text-primary">Deposit Funds</Link> */}
                 </div>
               </div>
             ) : null}
